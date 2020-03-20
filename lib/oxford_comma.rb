@@ -5,6 +5,6 @@ def oxford_comma(array)
   elsif array.length == 1
   array[-1] << " "
   array.join
-  elsif array.lenth > 2
+  elsif array.length > 2
   array[-1].p
 end
